@@ -1,0 +1,21 @@
+.wordle-input {
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    border: 2px solid #d3d6da;
+    border-radius: 4px;
+    font-size: 32px;
+    font-weight: bold;
+    outline: none;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+
+.wordle-input:focus {
+    border-color: #878a8c;
+}
+
+.wordle-input:disabled {
+    opacity: 1; /* Keep full opacity when disabled */
+    cursor: default;
+}

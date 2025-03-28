@@ -1,0 +1,90 @@
+.keyboard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.input-display {
+    margin-bottom: 10px;
+}
+
+input {
+    width: 300px;
+    padding: 100px;
+    font-size: 18px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.keyboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.key {
+    padding: 15px 20px;
+    font-size: 16px;
+    margin: 5px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #5e5c5c;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.2s ease;
+    min-width: 40px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.key:hover {
+    background-color: #6e6d6d;
+}
+
+.key:active {
+    background-color: #d0d0d0;
+}
+
+.large-key {
+    padding: 15px 25px;
+    min-width: 60px;
+}
+
+.correct-position {
+    background-color: green;
+    border-color: green;
+}
+
+.correct-letter {
+    background-color: yellow;
+    border-color: yellow;
+}
+
+.incorrect {
+    background-color: red;
+    border-color: red;
+}
+
+.correct-position:hover {
+    background-color: darkolivegreen;
+}
+
+.correct-letter:hover {
+    background-color: #b8a44d;
+}
+
+.incorrect:hover {
+    background-color: orangered;
+}
