@@ -8,7 +8,7 @@
     font-weight: bold;
     outline: none;
     text-transform: uppercase;
-    transition: all 0.3s ease;
+    transition: all 0.2s ease;
 }
 
 .wordle-input:focus {
